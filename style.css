@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #FFF;
+    height: 100vh;
+    font-family: sans-serif;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1 );
+    background-attachment: fixed;
+}
+
+
+h2, h3 {
+    margin: 30px 0;
+    text-align: center;
+}
+
+
+.item {
+    margin: 10px;
+    font-size: 1.2rem;
+    width: 130px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, .3);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+}
+
+.item:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.25), 0 5px 10px rgba(0,0,0,0.22);
+}
+
+
+/* Linha 01 */
+.row-1 {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    /* justify-content: space-around; */
+    justify-content: space-between;
+    /* justify-content: flex-end; */
+}
+
+.row-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+
+  
