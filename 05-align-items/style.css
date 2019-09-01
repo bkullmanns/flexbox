@@ -3,6 +3,8 @@ html { font-family: sans-serif; color: #666; }
 h1 { margin: 30px 0; text-align: center; font-size: 1.5rem; }
 h2 { margin-bottom: 30px;  text-align: center; font-size: 1.2rem; }
 
+/* body {display: flex; flex-direction: column; align-items: center;} */
+
 
 .container {
     margin: 0 auto;
@@ -12,11 +14,10 @@ h2 { margin-bottom: 30px;  text-align: center; font-size: 1.2rem; }
     /* Para esta propriedade funcionar precisa determinar uma largura para os itens ou definir "flex: 1;" */
     /* Valor padrão é "align-items: stretch;" */
     /* align-items: stretch; */
-    /* align-items: flex-start; */
+    align-items: flex-start;
     /* align-items: flex-end; */
-    /* align-items: center; */
-    align-items: baseline;
-    height: 500px;
+    align-items: center;
+    height: 300px;
 }
 
 .item {
@@ -28,10 +29,20 @@ h2 { margin-bottom: 30px;  text-align: center; font-size: 1.2rem; }
     flex: 1;
 }
 
-.item:first-child {
-    padding-top: 150px;
+.column {
+    flex-direction: column;
 }
 
-/* .column {
-    flex-direction: column;
-} */
+
+/* Alinhando item ao centro do container ou página */
+.centralizar-item {
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+.centralizar-item .item {
+    /* Não deixa item esticar */
+    flex: 0;
+    padding: 10px;
+}
