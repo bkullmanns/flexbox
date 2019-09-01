@@ -16,7 +16,7 @@ h2 { margin-bottom: 30px;  text-align: center; font-size: 1.2rem; }
     /* align-items: stretch; */
     align-items: flex-start;
     /* align-items: flex-end; */
-    align-items: center;
+    /* align-items: center; */
     height: 300px;
 }
 
