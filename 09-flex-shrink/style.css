@@ -12,18 +12,9 @@ h2 { margin-bottom: 30px;  text-align: center; font-size: 1.2rem; }
 
 .container {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 1200px;
     border: 1px solid #333;
-    height: 300px; /* Determinando altura do container*/
     display: flex;
-    /* flex-wrap: wrap; */
-    /* Valor padrão: "stretch" */
-    /* align-content: stretch; */
-    /* align-content: flex-start; */
-    /* align-content: flex-end; */
-    /* align-content: center; */
-    /* align-content: space-between; */
-    /* align-content: space-around; */
 }
 
 .item {
@@ -32,9 +23,9 @@ h2 { margin-bottom: 30px;  text-align: center; font-size: 1.2rem; }
     font-size: 1.5rem;
     text-align: center;
     color: #FFF;
-    /* flex: 1; */
+    flex-basis: 600px;
 }
 
-.column {
-    flex-direction: column;
+.flex-shrink-2 {
+    flex-shrink: 0;
 }
