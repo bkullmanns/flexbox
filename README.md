@@ -130,6 +130,6 @@ Define o alinhamento dos itens perpendicularmente em relação ao eixo principal
 ```
 
 > **Ver exemplo:** [Link](https://marcelopoars.github.io/flexbox/app/05-align-items/)
-
+<iframe width="100%" height="600" src="//jsfiddle.net/62kduo09/9/embedded/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 <br />
