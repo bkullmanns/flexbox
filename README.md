@@ -1,28 +1,21 @@
-# Flexbox layout
+# O que é Flexbox?
+
+O **Flexbox** *(Flexible Box)* nos permite organizar, alinhar e distribuir itens dentro de um container. Com ele fica mais simples definir o tamanho e o alinhamento vertical e horizontal de itens.
+
+Primeiro de tudo temos que saber que teremos propriedades CSS para trabalhar com o elemento que possui nossos itens (container ou elemento pai) e propriedades para os nossos itens (elementos filhos).
 
 
-Uma nova tecnologia, mas com suporte bastante difundido entre navegadores, o Flexbox está se tornando apto para uso geral. Flexbox provê ferramentas para criação rápida de layouts complexos e flexíveis, e características que se mostraram historicamente difíceis com CSS. 
+## Propriedades "container / elemento pai"
 
+### flex-direction
+Indica a direção dos itens, definindo o que vamos chamar de eixo principal (main-axis).
 
-## Por quê Flexbox?
+- **row (padrão):** da esquerda para direita
+- **row-reverse:** inverso de row
+- **column:** de cima para baixo
+- **column-reverse:** inverso de column
 
-Por um longo tempo, as únicas ferramentas compatíveis entre browsers disponíveis para criação de layouts CSS eram coisas como floats e posicionamento. Estas são boas e funcionam, mas em alguns casos também são limitadas e frustrantes.
-
-Os requisitos de layouts a seguir são difíceis ou impossíveis de se conseguir com estas ferramentas, em qualquer tipo conveniente e flexível:
-
-- Centralizar um bloco de conteúdo verticalmente dentro de seu pai.
-- Fazer com que os filhos de um container ocupe uma quantidade igual de largura/altura disponível, independente da quantidade de largura/altura disponível.
-- Fazer todas as colunas de um layout com múltiplas colunas adotem a mesma altura, mesmo que contenham uma quantidade diferente de conteúdo.
-
-
-
-## Flex Container
-
-### 1 - display: flex;
-> Torna o elemento um flex container automaticamente transformando todos os seus filhos diretos em flex itens.
-
-### 2 - flex-direction
-
+> **Ver exemplo:** https://marcelopoars.github.io/flexbox/app/02-flex-direction/
 
 
 
