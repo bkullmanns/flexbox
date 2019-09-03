@@ -17,15 +17,17 @@
     border: 1px solid #333;
     display: block;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    
 }
 
 /* Elemento filho */
 .item {
     margin: 5px;
     background-color: rgb(247, 93, 66);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: center;
     color: #FFF;
-    flex: 1;
+    /* Distribui elementos  */
+    /* flex: 1; */
 }
