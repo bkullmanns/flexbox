@@ -5,6 +5,8 @@ html, body{
     font-family: sans-serif;
   }
   
+  h1 { text-align: center; }
+
   label{
     cursor: pointer;
       -webkit-touch-callout: none; /* iOS Safari */
