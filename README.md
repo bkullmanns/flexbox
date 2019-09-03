@@ -11,7 +11,7 @@ Primeiro de tudo temos que saber que teremos propriedades CSS para trabalhar com
 Primeiro precisamos definir que o nosso container é do tipo **“flex”**; Fazemos isso com a propriedade **“display”**.
 No exemplo abaixo, utilize o checkbox para ligar/desligar o Flexbox.
 
-> **Ver exemplo:** https://marcelopoars.github.io/flexbox/app/02-flex-direction/
+> **Ver exemplo:** https://marcelopoars.github.io/flexbox/app/01-display/
 
 
 
