@@ -107,7 +107,29 @@ Define o alinhamento dos itens ao longo do **eixo principal**.
 }
 ```
 
-> **Ver exemplo:** [Link](https://marcelopoars.github.io/flexbox/app/05-justify-content/)
+> **Ver exemplo:** [Link](https://marcelopoars.github.io/flexbox/app/04-justify-content/)
+
+
+<br />
+
+
+### 6 - align-items
+Define o alinhamento dos itens perpendicularmente em relação ao eixo principal. Pense nele como um justify-content, mas que alinhará os itens no outro eixo.
+
+- **stretch (padrão):** estica os elementos para preencherem o container.
+- **flex-start:** os itens ficam junto no começo do eixo perpendicular
+- **flex-end:** os itens ficam juntos no final do eixo perpendicular
+- **center:** os itens ficam centralizados no eixo perpendicular
+- **baseline:** parecido com o center, mas usando a base da linha como referência. No exemplo abaixo, note como os textos dos itens ficam alinhados.
+
+```css
+.container{
+   display: flex;
+   align-items: center;  
+}
+```
+
+> **Ver exemplo:** [Link](https://marcelopoars.github.io/flexbox/app/05-align-items/)
 
 
 <br />
