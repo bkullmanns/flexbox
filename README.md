@@ -58,6 +58,7 @@ Esta propriedade permite que os itens sejam jogados em outra linha caso não haj
    display: flex;
    flex-wrap: wrap;  
 }
+
 .item{
    width: 40%;  
 }
