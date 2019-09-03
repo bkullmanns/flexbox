@@ -105,6 +105,7 @@ Define o alinhamento dos itens ao longo do **eixo principal**.
    display: flex;
    justify-content: space-around;  
 }
+```
 
 > **Ver exemplo:** [Link](https://marcelopoars.github.io/flexbox/app/05-justify-content/)
 
