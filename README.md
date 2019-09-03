@@ -6,6 +6,12 @@ Primeiro de tudo temos que saber que teremos propriedades CSS para trabalhar com
 <br />
 
 ## Propriedades "container / elemento pai"
+- flex-direction
+- flex-wrap
+- flex-flow
+- justify-content
+
+
 
 ### 1 - dispplay
 Primeiro precisamos definir que o nosso container é do tipo **“flex”**; Fazemos isso com a propriedade **“display”**.
@@ -79,3 +85,17 @@ Esta propriedade é apenas um atalho para flex-direction e flex-wrap, nos permit
     flex-flow: row wrap;
   }
 ```
+
+
+<br />
+
+
+### 5 - justify-content
+Define o alinhamento dos itens ao longo do **eixo principal**.
+
+- **flex-start (padrão):** os itens ficam junto no começo da linha
+- **flex-end:** os itens ficam juntos no final da linha
+- **center:** os itens ficam centralizados na linha
+- **space-between:** os itens são distribuídos igualmente no espaço disponível. O primeiro item fica no começo da linha e o último fica no final.
+- **space-around:** os itens são distribuídos igualmente no espaço disponível ao redor deles.
+- **space-evenly:** os itens são distribuídos igualmente no espaço disponível.
