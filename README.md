@@ -11,6 +11,12 @@ Primeiro de tudo temos que saber que teremos propriedades CSS para trabalhar com
 Primeiro precisamos definir que o nosso container é do tipo **“flex”**; Fazemos isso com a propriedade **“display”**.
 No exemplo abaixo, utilize o checkbox para ligar/desligar o Flexbox.
 
+```css
+.container{
+   display: flex;  
+}
+```
+
 > **Ver exemplo:** [Link](https://marcelopoars.github.io/flexbox/app/01-display/)
 
 
@@ -24,6 +30,13 @@ Indica a direção dos itens, definindo o que vamos chamar de eixo principal (ma
 - **row-reverse:** inverso de row
 - **column:** de cima para baixo
 - **column-reverse:** inverso de column
+
+```css
+.container{
+   display: flex;
+   flex-direction: row;  
+}
+```
 
 > **Ver exemplo:** [Link](https://marcelopoars.github.io/flexbox/app/02-flex-direction/)
 
@@ -39,6 +52,16 @@ Esta propriedade permite que os itens sejam jogados em outra linha caso não haj
 - **nowrap (padrão):** todos os itens ficam em uma única linha
 - **wrap:** os itens que não cabem na linha são jogados para baixo
 - **wrap-reverse:** os itens que não cabem na linha são jogados para cima
+
+```css
+.container{
+   display: flex;
+   flex-wrap: wrap;  
+}
+.item{
+   width: 40%;  
+}
+```
 
 > **Ver exemplo:** [Link](https://marcelopoars.github.io/flexbox/app/03-flex-wrap/)
 
