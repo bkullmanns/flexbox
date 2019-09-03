@@ -7,7 +7,7 @@ Primeiro de tudo temos que saber que teremos propriedades CSS para trabalhar com
 
 ## Propriedades "container / elemento pai"
 
-### dispplay
+### 1 - dispplay
 Primeiro precisamos definir que o nosso container é do tipo **“flex”**; Fazemos isso com a propriedade **“display”**.
 No exemplo abaixo, utilize o checkbox para ligar/desligar o Flexbox.
 
@@ -23,7 +23,7 @@ No exemplo abaixo, utilize o checkbox para ligar/desligar o Flexbox.
 <br />
 
 
-### flex-direction
+### 2 - flex-direction
 Indica a direção dos itens, definindo o que vamos chamar de eixo principal (main-axis).
 
 - **row (padrão):** da esquerda para direita
@@ -44,7 +44,7 @@ Indica a direção dos itens, definindo o que vamos chamar de eixo principal (ma
 <br />
 
 
-### flex-wrap
+### 3 - flex-wrap
 O comportamento padrão dos itens de um elemento flex é ficar em uma única linha. Se a largura total de todos os itens for maior do que o espaço disponível, os itens continuarão na mesma linha.
 
 Esta propriedade permite que os itens sejam jogados em outra linha caso não haja mais espaço na linha.
@@ -69,7 +69,7 @@ Esta propriedade permite que os itens sejam jogados em outra linha caso não haj
 <br />
 
 
-### flex-flow
+### 4 - flex-flow
 Esta propriedade é apenas um atalho para flex-direction e flex-wrap, nos permitindo declarar o valor de ambos em uma única propriedade.
 
 ```css
