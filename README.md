@@ -132,6 +132,4 @@ Define o alinhamento dos itens perpendicularmente em relação ao eixo principal
 > **Ver exemplo:** [Link](https://marcelopoars.github.io/flexbox/app/05-align-items/)
 
 
-[embed url=http://jsfiddle.net/62kduo09/9/embedded/css,result/dark/]
-
 <br />
