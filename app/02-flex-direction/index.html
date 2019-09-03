@@ -11,34 +11,33 @@
 
 <body>
 
-    <div class="controller-container">
-        <div class="flex-options">
-            <label>
-                <input type="radio" name="flexoption" value="nowrap" checked /> nowrap
-            </label>
-            <label>
-                <input type="radio" name="flexoption" value="wrap" /> wrap
-            </label>
-            <label>
-                <input type="radio" name="flexoption" value="wrap-reverse" /> wrap-reverse
-            </label>
-        </div>
-        <div>
-            Largura dos Filhos<br>
-            <input type="range" value="40" min="10" max="100" step="10" id="childWidth" />
-            <span id="childWidthOutput">40</span>%
 
-        </div>
-    </div>
-    <style class="css-container"></style>
-    <code class="language-css"></code>
-    <div class="flexbox-container">
-        <div class="container">
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-        </div>
-    </div>
+<div class="controller-container">
+  <label>
+    <input type="radio" name="flexoption" value="row" checked /> row
+  </label>
+  <label>
+    <input type="radio" name="flexoption" value="row-reverse" /> row-reverse
+  </label>
+  <label>
+    <input type="radio" name="flexoption" value="column" /> column
+  </label>
+  <label>
+    <input type="radio" name="flexoption" value="column-reverse" /> column-reverse
+  </label>
+</div>
+<style class="css-container"></style>
+<code class="language-css"></code>
+<div class="flexbox-container">
+  <div class="container">
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+  </div>
+</div>
+
+
+
 
     <script src="app.js"></script>
 

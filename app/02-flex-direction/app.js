@@ -1,54 +1,28 @@
 const styleContainer = document.querySelector('.css-container'),
-	codeContainer = document.querySelector('.language-css');
-let initialCode = `
+	codeContainer = document.querySelector('.language-css'),
+  initialCode = `
    display: flex;
-   flex-wrap: nowrap;
-`,
-	initialChildCode = `
-	width: 40%;  
+   flex-direction: row;
 `;
   
   
   
-const flexOptions = document.querySelector('.flex-options');
+const controllerContainer = document.querySelector('.controller-container');
 
-flexOptions.addEventListener('click', () => {
-	const flexWrap = document.querySelector('input[name="flexoption"]:checked').value;
-	initialCode = `
+controllerContainer.addEventListener('click', () => {
+	const flexDirection = document.querySelector('input[name="flexoption"]:checked').value;
+	let code = `
    display: flex;
-   flex-wrap: ${flexWrap};
+   flex-direction: ${flexDirection};
 	`;
-  setCode();
+  setCode(code);
 })
-
-
-const childWidth =  document.querySelector('#childWidth'),
-	childWidthOutput =  document.querySelector('#childWidthOutput');
-  
-childWidth.addEventListener('input', () => {
-	const width = childWidth.value;
-	initialChildCode = `
-  width: ${width}%;
-`;
-	childWidthOutput.innerText = width;
-  setCode();
-})
-
-
-
-
-
-
-
-
-
-
 
 
 
 function startCode(){
 	try{
-  	setCode();
+  	setCode(initialCode);
   }catch(e){
   	setTimeout(() => {
     	startCode();
@@ -58,16 +32,10 @@ function startCode(){
 
 startCode();
 
-function setCode(code = initialCode, childCode = initialChildCode){
+function setCode(code){
 	code = `.container{
    ${code.replace(/^\s+|\s+$/g, '')}  
 }`;
-if(childCode){
-	code += `
-.item{
-   ${childCode.replace(/^\s+|\s+$/g, '')}  
-}`
-}
 	styleContainer.innerText = code;
   codeContainer.innerHTML = getCSSHighlight(code);
 }
