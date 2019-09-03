@@ -7,6 +7,14 @@ Primeiro de tudo temos que saber que teremos propriedades CSS para trabalhar com
 
 ## Propriedades "container / elemento pai"
 
+### dispplay
+Primeiro precisamos definir que o nosso container é do tipo **“flex”**; Fazemos isso com a propriedade **“display”**.
+No exemplo abaixo, utilize o checkbox para ligar/desligar o Flexbox.
+
+> **Ver exemplo:** https://marcelopoars.github.io/flexbox/app/02-flex-direction/
+
+
+
 ### flex-direction
 Indica a direção dos itens, definindo o que vamos chamar de eixo principal (main-axis).
 
@@ -17,7 +25,6 @@ Indica a direção dos itens, definindo o que vamos chamar de eixo principal (ma
 
 > **Ver exemplo:** https://marcelopoars.github.io/flexbox/app/02-flex-direction/
 
-> [**link**](https://marcelopoars.github.io/flexbox/app/02-flex-direction/ :target="_blank")
 
 
 
