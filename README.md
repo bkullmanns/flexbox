@@ -14,6 +14,8 @@ No exemplo abaixo, utilize o checkbox para ligar/desligar o Flexbox.
 > **Ver exemplo:** [Link](https://marcelopoars.github.io/flexbox/app/01-display/)
 
 
+<br />
+
 
 ### flex-direction
 Indica a direção dos itens, definindo o que vamos chamar de eixo principal (main-axis).
