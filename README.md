@@ -17,5 +17,7 @@ Indica a direção dos itens, definindo o que vamos chamar de eixo principal (ma
 
 > **Ver exemplo:** https://marcelopoars.github.io/flexbox/app/02-flex-direction/
 
+> [**link**](https://marcelopoars.github.io/flexbox/app/02-flex-direction/){:target="_blank"}
+
 
 
