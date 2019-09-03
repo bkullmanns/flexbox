@@ -99,3 +99,14 @@ Define o alinhamento dos itens ao longo do **eixo principal**.
 - **space-between:** os itens são distribuídos igualmente no espaço disponível. O primeiro item fica no começo da linha e o último fica no final.
 - **space-around:** os itens são distribuídos igualmente no espaço disponível ao redor deles.
 - **space-evenly:** os itens são distribuídos igualmente no espaço disponível.
+
+```css
+.container{
+   display: flex;
+   justify-content: space-around;  
+}
+
+> **Ver exemplo:** [Link](https://marcelopoars.github.io/flexbox/app/05-justify-content/)
+
+
+<br />
