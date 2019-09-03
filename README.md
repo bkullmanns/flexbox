@@ -50,9 +50,15 @@ Esta propriedade permite que os itens sejam jogados em outra linha caso não haj
 Esta propriedade é apenas um atalho para flex-direction e flex-wrap, nos permitindo declarar o valor de ambos em uma única propriedade.
 
 <p>
-  Exemplo:
   <pre><code>.container {
     display: flex;
     flex-flow: row wrap;
   }</code></pre>
 </p>
+
+```css
+.container {
+    display: flex;
+    flex-flow: row wrap;
+  }
+```
