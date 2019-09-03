@@ -11,7 +11,7 @@ Primeiro de tudo temos que saber que teremos propriedades CSS para trabalhar com
 Primeiro precisamos definir que o nosso container é do tipo **“flex”**; Fazemos isso com a propriedade **“display”**.
 No exemplo abaixo, utilize o checkbox para ligar/desligar o Flexbox.
 
-> **Ver exemplo:** https://marcelopoars.github.io/flexbox/app/01-display/
+> **Ver exemplo:** [Link](https://marcelopoars.github.io/flexbox/app/01-display/)
 
 
 
@@ -23,9 +23,8 @@ Indica a direção dos itens, definindo o que vamos chamar de eixo principal (ma
 - **column:** de cima para baixo
 - **column-reverse:** inverso de column
 
-> **Ver exemplo:** https://marcelopoars.github.io/flexbox/app/02-flex-direction/
+> **Ver exemplo:** [Link](https://marcelopoars.github.io/flexbox/app/02-flex-direction/)
 
 
-[Teste](https://blog.da2k.com.br target="_blank")
 
 
