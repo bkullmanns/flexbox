@@ -16,6 +16,8 @@ Primeiro de tudo temos que saber que teremos propriedades CSS para trabalhar com
 > ### Guia de bolso / Simulador flexbox
 > **Clique no link para testar:** [Link](https://marcelopoars.github.io/flexbox/app/01-display/)
 
+<br />
+<br />
 
 ### 1 - dispplay
 Primeiro precisamos definir que o nosso container é do tipo **“flex”**; Fazemos isso com a propriedade **“display”**.
