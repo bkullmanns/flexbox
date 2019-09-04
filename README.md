@@ -144,7 +144,23 @@ Define o alinhamento dos itens perpendicularmente em relação ao eixo principal
 }
 ```
 
-> **Ver exemplo:** [Link](https://marcelopoars.github.io/flexbox/app/05-align-items/)
+> **Ver exemplo:** [Link](https://marcelopoars.github.io/flexbox/app/05-align-items/row)
+
+
+<br />
+
+### flex-direction: column
+Lembre-se que esta propriedade alinha os itens em relação ao **eixo principal**. Isso significa que se você mudar o valor de **flex-direction**, a direção do posicionamento será outra.
+
+```css
+.container{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;  
+}
+```
+
+> **Ver exemplo (column):** [Link](https://marcelopoars.github.io/flexbox/app/05-align-items/column)
 
 
 <br />
