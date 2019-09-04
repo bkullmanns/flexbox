@@ -5,6 +5,11 @@ Primeiro de tudo temos que saber que teremos propriedades CSS para trabalhar com
 
 <br />
 
+![](https://css-tricks.com/wp-content/uploads/2018/10/01-container.svg)
+
+<br />
+
+
 ## Propriedades para itens "container / elemento pai"
 - flex-direction
 - flex-wrap
