@@ -8,6 +8,8 @@
  html { font-family: sans-serif; color: #666; }
  h1 { margin: 30px 0 10px 0; text-align: center; font-size: 1.5rem; }
  h2 { margin-bottom: 30px;  text-align: center; font-size: 1.2rem; }
+ section, div { border-radius: 3px; }
+
 
 
  /* Container pai */
@@ -21,7 +23,7 @@
     
 }
 
-/* Elemento filho */
+/* Itens filhos filho */
 .item {
     margin: 5px;
     background-color: rgb(247, 93, 66);
@@ -30,4 +32,5 @@
     color: #FFF;
     /* Distribui elementos  */
     /* flex: 1; */
+    /* padding: 5px; */
 }
