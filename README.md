@@ -114,6 +114,14 @@ Define o alinhamento dos itens ao longo do **eixo principal**.
 ### flex-direction: column
 Lembre-se que esta propriedade alinha os itens em relação ao **eixo principal**. Isso significa que se você mudar o valor de **flex-direction**, a direção do posicionamento será outra.
 
+```css
+.container{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;  
+}
+```
+
 > **Ver exemplo (column):** [Link](https://marcelopoars.github.io/flexbox/app/04-justify-content/column)
 
 

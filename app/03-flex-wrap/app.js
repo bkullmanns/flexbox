@@ -5,7 +5,7 @@ let initialCode = `
    flex-wrap: nowrap;
 `,
 	initialChildCode = `
-	width: 40%;  
+	width: 0%;  
 `;
   
   

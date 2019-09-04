@@ -4,7 +4,8 @@
 }
 
 
-h1 { text-align: center; }
+h1, h3 { text-align: center; }
+main { max-width: 1000px; margin: 0 auto; }
 
 html, body{
   min-height: 450px;
