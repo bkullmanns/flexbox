@@ -14,7 +14,7 @@ Primeiro de tudo temos que saber que teremos propriedades CSS para trabalhar com
 - align-content
 
 > ### Guia de bolso / Simulador flexbox
-> **Clique no link para testar:** [Link](https://marcelopoars.github.io/flexbox/app/02-flex-container/)
+> **Clique no link para testar:** [Link](https://marcelopoars.github.io/flexbox/app/00-flex-container/)
 
 <br />
 <br />
