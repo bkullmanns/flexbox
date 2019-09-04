@@ -6,10 +6,9 @@ Primeiro de tudo temos que saber que teremos propriedades CSS para trabalhar com
 <br />
 
 ![](https://css-tricks.com/wp-content/uploads/2018/10/01-container.svg)
-#### (flex container)
+
 
 ![](https://css-tricks.com/wp-content/uploads/2018/10/02-items.svg)
-#### (flex items)
 
 <br />
 
@@ -234,6 +233,7 @@ Lembre-se que esta propriedade alinha os itens em relação ao **eixo principal*
 
 
 
+![](https://css-tricks.com/wp-content/uploads/2018/10/02-items.svg)
 
 ## Propriedades para itens "elemento filho"
 Agora veremos as propriedades que ficam nos elementos filhos. Teremos basicamente um container com alguns itens dentro.
@@ -260,6 +260,8 @@ Para vermos a diferença das propriedades aplicadas em um item específico, vamo
 Por padrão, os itens de um Flex Container são exibidos na ordem presente no **HTML**.
 Com a propriedade **order** nós podemos alterar a ordem dos elementos. O valor deve ser um número inteiro, negativo ou positivo
 
+![](https://css-tricks.com/wp-content/uploads/2018/10/order.svg)
+
 ```css
 .container{
    display: flex;
@@ -279,6 +281,8 @@ Com a propriedade **order** nós podemos alterar a ordem dos elementos. O valor 
 Indica o quanto um item pode **crescer** caso seja necessário. Deve ser um número inteiro positivo.
 Isso significa que se todos os itens tiverem o valor 1, o espaço disponível será distribuído igualmente a todos eles.
 Caso um dos itens tenha o valor 2, este item poderá ter duas vezes mais espaço do que os outros.
+
+![](https://css-tricks.com/wp-content/uploads/2018/10/flex-grow.svg)
 
 ```css
 .container{
@@ -351,6 +355,8 @@ Esta propriedade é apenas um atalho para **flex-grow**, **flex-shrink** e **fle
 ### 6 - align-self
 Você deve se lembrar da propriedade do container (elemento pai), **align-items**.
 A propriedade **align-self** nos permite sobrescrever o valor desta propriedade para um único item. Assim podemos, por exemplo, colocar um único item no final de uma linha enquanto todos os outros estão no começo.
+
+![](https://css-tricks.com/wp-content/uploads/2018/10/align-self.svg)
 
 ```css
 .container{
