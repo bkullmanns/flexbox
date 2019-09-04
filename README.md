@@ -5,12 +5,13 @@ Primeiro de tudo temos que saber que teremos propriedades CSS para trabalhar com
 
 <br />
 
-## Propriedades "container / elemento pai"
+## Propriedades para itens "container / elemento pai"
 - flex-direction
 - flex-wrap
 - flex-flow
 - justify-content
-
+- align-items
+- align-content
 
 
 ### 1 - dispplay
@@ -203,4 +204,30 @@ Lembre-se que esta propriedade alinha os itens em relação ao **eixo principal*
 > **Ver exemplo (column):** [Link](https://marcelopoars.github.io/flexbox/app/06-align-content/column)
 
 
-<br />
+<br /><br />
+<hr />
+<br /><br />
+
+
+
+
+## Propriedades para itens "elemento pai"
+Agora veremos as propriedades que ficam nos elementos filhos. Teremos basicamente um container com alguns itens dentro.
+
+- order
+- flex-grow
+- flex-basis
+- flex-shrink
+- flex
+- align-self
+
+Para vermos a diferença das propriedades aplicadas em um item específico, vamos adicionar a este item a classe **.selected**.
+
+
+```html
+<div class="container" >
+    <div class="item" ></div>
+    <div class="item selected" ></div>
+    <div class="item" ></div>
+</div>
+```
