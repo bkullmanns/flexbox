@@ -8,7 +8,7 @@ h1, h3 { text-align: center; }
 main { max-width: 1000px; margin: 0 auto; }
 
 html, body{
-  min-height: 450px;
+  /* min-height: 450px; */
   margin: 0;
   padding: 0;
   font-family: sans-serif;
@@ -50,7 +50,7 @@ label{
 .container{
   background-color: #0066ad;
   padding: 5px;
-  height: 150px;
+  /* height: 150px; */
   counter-reset: itemcounter;
 }
 
