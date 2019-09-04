@@ -129,7 +129,7 @@ Lembre-se que esta propriedade alinha os itens em relação ao **eixo principal*
 
 
 ### 6 - align-items
-Define o alinhamento dos itens perpendicularmente em relação ao eixo principal. Pense nele como um justify-content, mas que alinhará os itens no outro eixo.
+Define o alinhamento dos itens perpendicularmente em relação ao **eixo principal**. Pense nele como um **justify-content**, mas que alinhará os itens no outro eixo.
 
 - **stretch (padrão):** estica os elementos para preencherem o container.
 - **flex-start:** os itens ficam junto no começo do eixo perpendicular
@@ -140,12 +140,11 @@ Define o alinhamento dos itens perpendicularmente em relação ao eixo principal
 ```css
 .container{
    display: flex;
-   align-items: center;  
+   align-items: flex-start;  
 }
 ```
 
-> **Ver exemplo:** [Link](https://marcelopoars.github.io/flexbox/app/05-align-items/row)
-
+> **Ver exemplo (row):** [Link](https://marcelopoars.github.io/flexbox/app/05-align-items/row)
 
 <br />
 
