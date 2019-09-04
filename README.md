@@ -204,7 +204,7 @@ Lembre-se que esta propriedade alinha os itens em relação ao **eixo principal*
 > **Ver exemplo (column):** [Link](https://marcelopoars.github.io/flexbox/app/06-align-content/column)
 
 
-<br /><br />
+<br />
 <hr />
 <br /><br />
 
@@ -230,4 +230,109 @@ Para vermos a diferença das propriedades aplicadas em um item específico, vamo
     <div class="item selected" ></div>
     <div class="item" ></div>
 </div>
+```
+
+### 1 - Order
+Por padrão, os itens de um Flex Container são exibidos na ordem presente no **HTML**.
+Com a propriedade **order** nós podemos alterar a ordem dos elementos. O valor deve ser um número inteiro, negativo ou positivo
+
+```css
+.container{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;  
+}
+.item.selected{
+   order: 1;  
+}
+```
+
+
+<br />
+
+
+### 2 - flex-grow
+Indica o quanto um item pode **crescer** caso seja necessário. Deve ser um número inteiro positivo.
+Isso significa que se todos os itens tiverem o valor 1, o espaço disponível será distribuído igualmente a todos eles.
+Caso um dos itens tenha o valor 2, este item poderá ter duas vezes mais espaço do que os outros.
+
+```css
+.container{
+   display: flex;  
+}
+.item{
+   flex-grow: 1;  
+}
+.item.selected{
+   flex-grow: 2;  
+}
+```
+
+
+<br />
+
+
+### 3 - flex-basis
+Define o **tamanho padrão de um elemento** antes do espaço disponível ser distribuído. O valor pode ser em px, %, em, etc.
+Se o valor for auto, ele irá olhar para o valor de width e height do item.
+Se o valor for content, ele irá olhar para o tamanho do conteúdo do item.
+
+```css
+.container{
+   display: flex;  
+}
+.item.selected{
+   flex-basis: 50px;  
+}
+```
+
+
+<br />
+
+
+### 4 - flex-shrink
+Indica o **quanto um item pode encolher** caso seja necessário. Deve ser um número inteiro positivo.
+Isso significa que se todos os itens tiverem o valor 1, o espaço disponível será distribuído igualmente a todos eles.
+Caso um dos itens tenha o valor 2, este item poderá ter metade do espaço do que os outros.
+
+```css
+.container{
+   display: flex;  
+}
+.item{
+  flex-basis: 40%;  
+}
+.item.selected{
+  flex-shrink: 2;  
+}
+```
+
+
+<br />
+
+
+### 5 - flex
+Esta propriedade é apenas um atalho para **flex-grow**, **flex-shrink** e **flex-basis**, nos permitindo declarar os valores em uma única propriedade.
+
+```css
+.item.selected{
+    flex: 2 4 50px;
+}
+```
+
+
+<br />
+
+
+### 6 - align-self
+Você deve se lembrar da propriedade do container (elemento pai), **align-items**.
+A propriedade **align-self** nos permite sobrescrever o valor desta propriedade para um único item. Assim podemos, por exemplo, colocar um único item no final de uma linha enquanto todos os outros estão no começo.
+
+```css
+.container{
+   display: flex;  
+}
+.item.selected{
+   align-self: auto;  
+}
 ```
