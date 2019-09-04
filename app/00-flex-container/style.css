@@ -8,7 +8,7 @@
   }
   
   .item{
-    min-height: 20px !important;
+    /* min-height: 20px !important; */
     min-width: 200px !important;
   }
   
