@@ -6,10 +6,10 @@ Primeiro de tudo temos que saber que teremos propriedades CSS para trabalhar com
 <br />
 
 ![](https://css-tricks.com/wp-content/uploads/2018/10/01-container.svg)
-#### :(flex container):
+#### (flex container)
 
 ![](https://css-tricks.com/wp-content/uploads/2018/10/02-items.svg)
-#### :(flex items):
+#### (flex items)
 
 <br />
 
@@ -47,6 +47,8 @@ No exemplo abaixo, utilize o checkbox para ligar/desligar o Flexbox.
 ### 2 - flex-direction
 Indica a direção dos itens, definindo o que vamos chamar de eixo principal (main-axis).
 
+![](https://css-tricks.com/wp-content/uploads/2018/10/flex-direction.svg)
+
 - **row (padrão):** da esquerda para direita
 - **row-reverse:** inverso de row
 - **column:** de cima para baixo
@@ -69,6 +71,8 @@ Indica a direção dos itens, definindo o que vamos chamar de eixo principal (ma
 O comportamento padrão dos itens de um elemento flex é ficar em uma única linha. Se a largura total de todos os itens for maior do que o espaço disponível, os itens continuarão na mesma linha.
 
 Esta propriedade permite que os itens sejam jogados em outra linha caso não haja mais espaço na linha.
+
+![](https://css-tricks.com/wp-content/uploads/2018/10/flex-wrap.svg)
 
 - **nowrap (padrão):** todos os itens ficam em uma única linha
 - **wrap:** os itens que não cabem na linha são jogados para baixo
@@ -108,6 +112,8 @@ Esta propriedade é apenas um atalho para flex-direction e flex-wrap, nos permit
 ### 5 - justify-content
 Define o alinhamento dos itens ao longo do **eixo principal**.
 
+![](https://css-tricks.com/wp-content/uploads/2018/10/justify-content.svg)
+
 - **flex-start (padrão):** os itens ficam junto no começo da linha
 - **flex-end:** os itens ficam juntos no final da linha
 - **center:** os itens ficam centralizados na linha
@@ -146,6 +152,8 @@ Lembre-se que esta propriedade alinha os itens em relação ao **eixo principal*
 ### 6 - align-items
 Define o alinhamento dos itens perpendicularmente em relação ao **eixo principal**. Pense nele como um **justify-content**, mas que alinhará os itens no outro eixo.
 
+![](https://css-tricks.com/wp-content/uploads/2018/10/align-items.svg)
+
 - **stretch (padrão):** estica os elementos para preencherem o container.
 - **flex-start:** os itens ficam junto no começo do eixo perpendicular
 - **flex-end:** os itens ficam juntos no final do eixo perpendicular
@@ -183,6 +191,8 @@ Lembre-se que esta propriedade alinha os itens em relação ao **eixo principal*
 ### 6 - align-content
 Alinha as linhas do container.
 Por alinhar as linhas, esta propriedade só tem efeito quando há mais de uma linha.
+
+![](https://css-tricks.com/wp-content/uploads/2018/10/align-content.svg)
 
 - **stretch (padrão):** estica as linhas para preencherem o espaço restante.
 - **flex-start: as linhas** ficam juntas no começo do container
