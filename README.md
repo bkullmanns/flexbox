@@ -44,9 +44,9 @@ No exemplo abaixo, utilize o checkbox para ligar/desligar o Flexbox.
 
 
 ### 2 - flex-direction
+![](https://css-tricks.com/wp-content/uploads/2018/10/flex-direction.svg)
 Indica a direção dos itens, definindo o que vamos chamar de eixo principal (main-axis).
 
-![](https://css-tricks.com/wp-content/uploads/2018/10/flex-direction.svg)
 
 - **row (padrão):** da esquerda para direita
 - **row-reverse:** inverso de row
@@ -67,11 +67,11 @@ Indica a direção dos itens, definindo o que vamos chamar de eixo principal (ma
 
 
 ### 3 - flex-wrap
+![](https://css-tricks.com/wp-content/uploads/2018/10/flex-wrap.svg)
 O comportamento padrão dos itens de um elemento flex é ficar em uma única linha. Se a largura total de todos os itens for maior do que o espaço disponível, os itens continuarão na mesma linha.
 
 Esta propriedade permite que os itens sejam jogados em outra linha caso não haja mais espaço na linha.
 
-![](https://css-tricks.com/wp-content/uploads/2018/10/flex-wrap.svg)
 
 - **nowrap (padrão):** todos os itens ficam em uma única linha
 - **wrap:** os itens que não cabem na linha são jogados para baixo
@@ -109,9 +109,9 @@ Esta propriedade é apenas um atalho para flex-direction e flex-wrap, nos permit
 
 
 ### 5 - justify-content
+![](https://css-tricks.com/wp-content/uploads/2018/10/justify-content.svg)
 Define o alinhamento dos itens ao longo do **eixo principal**.
 
-![](https://css-tricks.com/wp-content/uploads/2018/10/justify-content.svg)
 
 - **flex-start (padrão):** os itens ficam junto no começo da linha
 - **flex-end:** os itens ficam juntos no final da linha
@@ -149,9 +149,9 @@ Lembre-se que esta propriedade alinha os itens em relação ao **eixo principal*
 
 
 ### 6 - align-items
+![](https://css-tricks.com/wp-content/uploads/2018/10/align-items.svg)
 Define o alinhamento dos itens perpendicularmente em relação ao **eixo principal**. Pense nele como um **justify-content**, mas que alinhará os itens no outro eixo.
 
-![](https://css-tricks.com/wp-content/uploads/2018/10/align-items.svg)
 
 - **stretch (padrão):** estica os elementos para preencherem o container.
 - **flex-start:** os itens ficam junto no começo do eixo perpendicular
@@ -188,10 +188,10 @@ Lembre-se que esta propriedade alinha os itens em relação ao **eixo principal*
 
 
 ### 6 - align-content
+![](https://css-tricks.com/wp-content/uploads/2018/10/align-content.svg)
 Alinha as linhas do container.
 Por alinhar as linhas, esta propriedade só tem efeito quando há mais de uma linha.
 
-![](https://css-tricks.com/wp-content/uploads/2018/10/align-content.svg)
 
 - **stretch (padrão):** estica as linhas para preencherem o espaço restante.
 - **flex-start: as linhas** ficam juntas no começo do container
@@ -233,9 +233,9 @@ Lembre-se que esta propriedade alinha os itens em relação ao **eixo principal*
 
 
 
-![](https://css-tricks.com/wp-content/uploads/2018/10/02-items.svg)
 
 ## Propriedades para itens "elemento filho"
+![](https://css-tricks.com/wp-content/uploads/2018/10/02-items.svg)
 Agora veremos as propriedades que ficam nos elementos filhos. Teremos basicamente um container com alguns itens dentro.
 
 - order
@@ -257,10 +257,10 @@ Para vermos a diferença das propriedades aplicadas em um item específico, vamo
 ```
 
 ### 1 - Order
+![](https://css-tricks.com/wp-content/uploads/2018/10/order.svg)
 Por padrão, os itens de um Flex Container são exibidos na ordem presente no **HTML**.
 Com a propriedade **order** nós podemos alterar a ordem dos elementos. O valor deve ser um número inteiro, negativo ou positivo
 
-![](https://css-tricks.com/wp-content/uploads/2018/10/order.svg)
 
 ```css
 .container{
@@ -278,11 +278,11 @@ Com a propriedade **order** nós podemos alterar a ordem dos elementos. O valor 
 
 
 ### 2 - flex-grow
+![](https://css-tricks.com/wp-content/uploads/2018/10/flex-grow.svg)
 Indica o quanto um item pode **crescer** caso seja necessário. Deve ser um número inteiro positivo.
 Isso significa que se todos os itens tiverem o valor 1, o espaço disponível será distribuído igualmente a todos eles.
 Caso um dos itens tenha o valor 2, este item poderá ter duas vezes mais espaço do que os outros.
 
-![](https://css-tricks.com/wp-content/uploads/2018/10/flex-grow.svg)
 
 ```css
 .container{
@@ -353,10 +353,10 @@ Esta propriedade é apenas um atalho para **flex-grow**, **flex-shrink** e **fle
 
 
 ### 6 - align-self
+![](https://css-tricks.com/wp-content/uploads/2018/10/align-self.svg)
 Você deve se lembrar da propriedade do container (elemento pai), **align-items**.
 A propriedade **align-self** nos permite sobrescrever o valor desta propriedade para um único item. Assim podemos, por exemplo, colocar um único item no final de uma linha enquanto todos os outros estão no começo.
 
-![](https://css-tricks.com/wp-content/uploads/2018/10/align-self.svg)
 
 ```css
 .container{
