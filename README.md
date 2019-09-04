@@ -163,3 +163,42 @@ Lembre-se que esta propriedade alinha os itens em relação ao **eixo principal*
 
 
 <br />
+
+
+### 6 - align-content
+Alinha as linhas do container.
+Por alinhar as linhas, esta propriedade só tem efeito quando há mais de uma linha.
+
+- **stretch (padrão):** estica as linhas para preencherem o espaço restante.
+- **flex-start: as linhas** ficam juntas no começo do container
+- **flex-end:** as linhas ficam juntas no final do container
+- **center:** as linhas ficam centralizadas no container
+- **space-between:** as linhas são distribuídas igualmente. A primeira linha fica no começo do container e a última fica no final.
+- **space-around:** as linhas são distribuídas igualmente no espaço disponível ao redor delas.
+
+```css
+.container{
+   display: flex;
+   align-items: flex-start;  
+}
+```
+
+> **Ver exemplo (row):** [Link](https://marcelopoars.github.io/flexbox/app/06-align-content/row)
+
+<br />
+
+### flex-direction: column
+Lembre-se que esta propriedade alinha os itens em relação ao **eixo principal**. Isso significa que se você mudar o valor de **flex-direction**, a direção do posicionamento será outra.
+
+```css
+.container{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;  
+}
+```
+
+> **Ver exemplo (column):** [Link](https://marcelopoars.github.io/flexbox/app/06-align-content/column)
+
+
+<br />
