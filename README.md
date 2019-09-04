@@ -82,7 +82,7 @@ Esta propriedade é apenas um atalho para flex-direction e flex-wrap, nos permit
 ```css
 .container {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row wrap; /* flex-direction / flex-wrap */
   }
 ```
 
@@ -155,7 +155,7 @@ Lembre-se que esta propriedade alinha os itens em relação ao **eixo principal*
 .container{
    display: flex;
    flex-direction: column;
-   justify-content: flex-start;  
+   align-items: flex-start; 
 }
 ```
 
@@ -179,7 +179,8 @@ Por alinhar as linhas, esta propriedade só tem efeito quando há mais de uma li
 ```css
 .container{
    display: flex;
-   align-items: flex-start;  
+   flex-wrap: wrap;
+   align-content: flex-start;   
 }
 ```
 
@@ -193,8 +194,9 @@ Lembre-se que esta propriedade alinha os itens em relação ao **eixo principal*
 ```css
 .container{
    display: flex;
+   flex-wrap: wrap;
    flex-direction: column;
-   justify-content: flex-start;  
+   align-content: flex-start;  
 }
 ```
 
