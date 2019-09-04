@@ -9,10 +9,10 @@
   
   .item{
     min-height: 20px !important;
-    min-width: 20px !important;
+    min-width: 200px !important;
   }
   
-  .item:nth-child(2){ 
+  /* .item:nth-child(2){ 
     min-width: 20% !important;
     min-height: 37% !important;
   }
@@ -31,7 +31,7 @@
   .item:nth-child(7){ 
     min-width: 18% !important;
     min-height: 37% !important;
-  }
+  } */
 
 
   h1, h3 { text-align: center; }
