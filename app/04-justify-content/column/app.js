@@ -2,6 +2,7 @@ const styleContainer = document.querySelector('.css-container'),
 	codeContainer = document.querySelector('.language-css'),
   initialCode = `
    display: flex;
+   flex-direction: column;
    justify-content: flex-start;
 `;
   
@@ -13,6 +14,7 @@ controllerContainer.addEventListener('click', () => {
 	const justifyContent = document.querySelector('input[name="flexoption"]:checked').value;
 	let code = `
    display: flex;
+   flex-direction: column;
    justify-content: ${justifyContent};
 	`;
   setCode(code);

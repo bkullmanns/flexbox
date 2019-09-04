@@ -4,17 +4,14 @@
 }
 
 
-
+h1, h3 { text-align: center; }
+main { max-width: 1000px; margin: 0 auto; }
 
 html, body{
   min-height: 450px;
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-}
-
-h1 {
-  text-align: center;
 }
 
 label{

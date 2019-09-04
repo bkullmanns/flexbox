@@ -5,7 +5,8 @@ html, body{
     font-family: sans-serif;
   }
   
-  h1 { text-align: center; }
+  h1, h3 { text-align: center; }
+  main { max-width: 1000px; margin: 0 auto;}
 
   label{
     cursor: pointer;
