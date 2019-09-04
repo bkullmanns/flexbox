@@ -211,7 +211,7 @@ Lembre-se que esta propriedade alinha os itens em relação ao **eixo principal*
 
 
 
-## Propriedades para itens "elemento pai"
+## Propriedades para itens "elemento filho"
 Agora veremos as propriedades que ficam nos elementos filhos. Teremos basicamente um container com alguns itens dentro.
 
 - order
