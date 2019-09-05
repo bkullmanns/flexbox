@@ -31,7 +31,7 @@ img {
 
 
 .header {
-    background-color: #333;
+    background-color: #222;
     padding-top: 15px;
     display: flex;
     flex-wrap: wrap;
@@ -54,7 +54,7 @@ img {
 .menu li a {
     display: block;
     padding: 10px;
-    border-bottom: 3px solid #333;
+    border-bottom: 3px solid #222;
 }
 
 .menu li a:hover {
@@ -78,7 +78,7 @@ img {
 
 
 footer {
-    background-color: #333;
+    background-color: #222;
     margin-top: 30px;
     padding: 30px 20px;
 }
