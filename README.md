@@ -27,7 +27,7 @@ Primeiro de tudo temos que saber que teremos propriedades CSS para trabalhar com
 <br />
 <br />
 
-### 1 - dispplay
+### 1 - display
 Primeiro precisamos definir que o nosso container é do tipo **“flex”**; Fazemos isso com a propriedade **“display”**.
 No exemplo abaixo, utilize o checkbox para ligar/desligar o Flexbox.
 
